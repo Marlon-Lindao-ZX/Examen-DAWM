@@ -1,0 +1,23 @@
+p > small> a:hover{
+  text-decoration: none;
+  font-style: bold;
+}
+
+[class="nombre"] + small{
+  font-style: italic;
+}
+
+div[clase="usuario"]:first-child{
+  padding: 0.8rem;
+  background-color: #fff8e5;
+}
+
+@media (max-width: 600px) {
+   
+   div[id="plantillas"]:nth-of-type(1n+10) {
+     display: none;
+   }
+
+   .col-sm-12  { width: 100% !important; }
+
+}
